@@ -22,7 +22,7 @@ np.random.seed(42)
 
 # Раздел 2. Подготовка датасета
 # Загрузка датасета
-health_markers = pd.read_csv("C:\\Users\\volg2\Downloads\health_markers_dataset.csv",
+health_markers = pd.read_csv("\health_markers_dataset.csv",
                              encoding='utf-8')  # подключение датасета
 print("Размер исходного датасета:", health_markers.shape)
 print("Названия столбцов:")
